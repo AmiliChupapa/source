@@ -1,0 +1,471 @@
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local AmiliX = Instance.new("TextLabel")
+local UIGradient = Instance.new("UIGradient")
+local AmiliX_2 = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local COMPLEXO = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local Proximity = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local AutoFarm = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Proximity_2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local AutoFarm_2 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local AC6 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Deletarmapa = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Amili = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Amili_2 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local AutoFarm_3 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Creditos = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Creditos_2 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Creditos_3 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Creditos_4 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local Creditos_5 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Amili_3 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local FecharMenu = Instance.new("TextButton")
+local Abrir = Instance.new("TextButton")
+local UIGradient_2 = Instance.new("UIGradient")
+local UICorner_17 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+main.BackgroundTransparency = 0.550
+main.BorderColor3 = Color3.fromRGB(255, 255, 255)
+main.BorderSizePixel = 2
+main.Position = UDim2.new(0.173577622, 0, 0.0526315793, 0)
+main.Size = UDim2.new(0, 211, 0, 312)
+main.Visible = false
+main.Active = true
+main.Draggable = true
+
+AmiliX.Name = "Amili X"
+AmiliX.Parent = main
+AmiliX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AmiliX.Position = UDim2.new(-0.0093457941, 0, -0.00641025649, 0)
+AmiliX.Size = UDim2.new(0, 212, 0, 50)
+AmiliX.Font = Enum.Font.PermanentMarker
+AmiliX.Text = "Amili X"
+AmiliX.TextColor3 = Color3.fromRGB(0, 0, 0)
+AmiliX.TextSize = 56.000
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(0.69, Color3.fromRGB(97, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient.Parent = AmiliX
+
+AmiliX_2.Name = "Amili X"
+AmiliX_2.Parent = main
+AmiliX_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AmiliX_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+AmiliX_2.BorderSizePixel = 2
+AmiliX_2.Position = UDim2.new(-0.00441085966, 0, 0.154503599, 0)
+AmiliX_2.Size = UDim2.new(0, 212, 0, 19)
+AmiliX_2.Font = Enum.Font.Roboto
+AmiliX_2.Text = "         Amili X mudando o roblox"
+AmiliX_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+AmiliX_2.TextSize = 14.000
+AmiliX_2.TextXAlignment = Enum.TextXAlignment.Left
+
+ImageLabel.Parent = AmiliX_2
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(0.0249367021, 0, 0.163461521, 0)
+ImageLabel.Size = UDim2.new(0, 18, 0, 13)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=6131440845"
+
+ScrollingFrame.Parent = main
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BackgroundTransparency = 0.600
+ScrollingFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BorderSizePixel = 2
+ScrollingFrame.Position = UDim2.new(0.0544276759, 0, 0.257956266, 0)
+ScrollingFrame.Size = UDim2.new(0, 186, 0, 218)
+
+COMPLEXO.Name = "COMPLEXO"
+COMPLEXO.Parent = ScrollingFrame
+COMPLEXO.BackgroundColor3 = Color3.fromRGB(126, 126, 126)
+COMPLEXO.BorderColor3 = Color3.fromRGB(255, 255, 255)
+COMPLEXO.Position = UDim2.new(-0.0107526882, 0, -0.00415966846, 0)
+COMPLEXO.Size = UDim2.new(0, 173, 0, 28)
+COMPLEXO.Font = Enum.Font.Roboto
+COMPLEXO.Text = "COMPLEXO RP"
+COMPLEXO.TextColor3 = Color3.fromRGB(0, 0, 0)
+COMPLEXO.TextSize = 25.000
+
+UICorner.Parent = COMPLEXO
+
+Proximity.Name = "Proximity"
+Proximity.Parent = ScrollingFrame
+Proximity.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Proximity.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Proximity.Position = UDim2.new(0.064087078, 0, 0.1976019, 0)
+Proximity.Size = UDim2.new(0, 145, 0, 29)
+Proximity.Font = Enum.Font.SourceSans
+Proximity.Text = "Proximity 0"
+Proximity.TextColor3 = Color3.fromRGB(0, 0, 0)
+Proximity.TextSize = 28.000
+Proximity.TextWrapped = true
+
+UICorner_2.Parent = Proximity
+
+AutoFarm.Name = "AutoFarm"
+AutoFarm.Parent = ScrollingFrame
+AutoFarm.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+AutoFarm.BorderColor3 = Color3.fromRGB(255, 255, 255)
+AutoFarm.Position = UDim2.new(0.064087078, 0, 0.0628616512, 0)
+AutoFarm.Size = UDim2.new(0, 145, 0, 29)
+AutoFarm.Font = Enum.Font.SourceSans
+AutoFarm.Text = " Auto Farm"
+AutoFarm.TextColor3 = Color3.fromRGB(0, 0, 0)
+AutoFarm.TextSize = 28.000
+
+UICorner_3.Parent = AutoFarm
+
+Proximity_2.Name = "Proximity"
+Proximity_2.Parent = ScrollingFrame
+Proximity_2.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Proximity_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Proximity_2.Position = UDim2.new(0.064087078, 0, 0.265783727, 0)
+Proximity_2.Size = UDim2.new(0, 145, 0, 29)
+Proximity_2.Font = Enum.Font.SourceSans
+Proximity_2.Text = "Proximity 4"
+Proximity_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Proximity_2.TextSize = 28.000
+Proximity_2.TextWrapped = true
+
+UICorner_4.Parent = Proximity_2
+
+AutoFarm_2.Name = "AutoFarm"
+AutoFarm_2.Parent = ScrollingFrame
+AutoFarm_2.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+AutoFarm_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+AutoFarm_2.Position = UDim2.new(0.064087078, 0, 0.12779671, 0)
+AutoFarm_2.Size = UDim2.new(0, 145, 0, 29)
+AutoFarm_2.Font = Enum.Font.SourceSans
+AutoFarm_2.Text = "Desact. Farm"
+AutoFarm_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+AutoFarm_2.TextSize = 28.000
+
+UICorner_5.Parent = AutoFarm_2
+
+AC6.Name = "AC6"
+AC6.Parent = ScrollingFrame
+AC6.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+AC6.BorderColor3 = Color3.fromRGB(255, 255, 255)
+AC6.Position = UDim2.new(0.064087078, 0, 0.33396554, 0)
+AC6.Size = UDim2.new(0, 145, 0, 29)
+AC6.Font = Enum.Font.SourceSans
+AC6.Text = "AC6 Fucker"
+AC6.TextColor3 = Color3.fromRGB(0, 0, 0)
+AC6.TextSize = 28.000
+AC6.TextWrapped = true
+
+UICorner_6.Parent = AC6
+
+Deletarmapa.Name = "Deletar mapa"
+Deletarmapa.Parent = ScrollingFrame
+Deletarmapa.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Deletarmapa.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Deletarmapa.Position = UDim2.new(0.064087078, 0, 0.407017469, 0)
+Deletarmapa.Size = UDim2.new(0, 145, 0, 29)
+Deletarmapa.Font = Enum.Font.SourceSans
+Deletarmapa.Text = "Deletar MAP"
+Deletarmapa.TextColor3 = Color3.fromRGB(0, 0, 0)
+Deletarmapa.TextSize = 28.000
+Deletarmapa.TextWrapped = true
+
+UICorner_7.Parent = Deletarmapa
+
+Amili.Name = "Amili"
+Amili.Parent = ScrollingFrame
+Amili.Active = false
+Amili.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Amili.BackgroundTransparency = 1.000
+Amili.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Amili.Position = UDim2.new(0.064087078, 0, 0.47357592, 0)
+Amili.Size = UDim2.new(0, 145, 0, 29)
+Amili.Font = Enum.Font.SourceSans
+Amili.Text = "--------------------"
+Amili.TextColor3 = Color3.fromRGB(0, 0, 0)
+Amili.TextSize = 28.000
+Amili.TextStrokeTransparency = 0.000
+Amili.TextTransparency = 0.900
+Amili.TextWrapped = true
+
+UICorner_8.Parent = Amili
+
+Amili_2.Name = "Amili"
+Amili_2.Parent = ScrollingFrame
+Amili_2.Active = false
+Amili_2.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Amili_2.BackgroundTransparency = 1.000
+Amili_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Amili_2.Position = UDim2.new(0.064087078, 0, 0.520653844, 0)
+Amili_2.Size = UDim2.new(0, 145, 0, 29)
+Amili_2.Font = Enum.Font.SourceSans
+Amili_2.Text = "Creditos"
+Amili_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Amili_2.TextSize = 28.000
+Amili_2.TextStrokeTransparency = 0.000
+Amili_2.TextTransparency = 0.960
+
+UICorner_9.Parent = Amili_2
+
+AutoFarm_3.Name = "AutoFarm"
+AutoFarm_3.Parent = ScrollingFrame
+AutoFarm_3.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+AutoFarm_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+AutoFarm_3.Position = UDim2.new(0.064087078, 0, 0.12779671, 0)
+AutoFarm_3.Size = UDim2.new(0, 145, 0, 29)
+AutoFarm_3.Font = Enum.Font.SourceSans
+AutoFarm_3.Text = "Desact. Farm"
+AutoFarm_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+AutoFarm_3.TextSize = 28.000
+
+UICorner_10.Parent = AutoFarm_3
+
+Creditos.Name = "Creditos"
+Creditos.Parent = ScrollingFrame
+Creditos.Active = false
+Creditos.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Creditos.BackgroundTransparency = 1.000
+Creditos.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Creditos.Position = UDim2.new(0.064087078, 0, 0.577472031, 0)
+Creditos.Size = UDim2.new(0, 145, 0, 29)
+Creditos.Font = Enum.Font.SourceSans
+Creditos.Text = "AmiliSoldier"
+Creditos.TextColor3 = Color3.fromRGB(255, 255, 255)
+Creditos.TextSize = 28.000
+
+UICorner_11.Parent = Creditos
+
+Creditos_2.Name = "Creditos"
+Creditos_2.Parent = ScrollingFrame
+Creditos_2.Active = false
+Creditos_2.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Creditos_2.BackgroundTransparency = 1.000
+Creditos_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Creditos_2.Position = UDim2.new(0.064087078, 0, 0.647277236, 0)
+Creditos_2.Size = UDim2.new(0, 145, 0, 29)
+Creditos_2.Font = Enum.Font.SourceSans
+Creditos_2.Text = "COMPLEXO RP"
+Creditos_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Creditos_2.TextSize = 28.000
+
+UICorner_12.Parent = Creditos_2
+
+Creditos_3.Name = "Creditos"
+Creditos_3.Parent = ScrollingFrame
+Creditos_3.Active = false
+Creditos_3.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Creditos_3.BackgroundTransparency = 1.000
+Creditos_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Creditos_3.Position = UDim2.new(0.064087078, 0, 0.715459049, 0)
+Creditos_3.Size = UDim2.new(0, 145, 0, 29)
+Creditos_3.Font = Enum.Font.SourceSans
+Creditos_3.Text = "2021 Amili X LTDA"
+Creditos_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Creditos_3.TextSize = 28.000
+
+UICorner_13.Parent = Creditos_3
+
+Creditos_4.Name = "Creditos"
+Creditos_4.Parent = ScrollingFrame
+Creditos_4.Active = false
+Creditos_4.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Creditos_4.BackgroundTransparency = 1.000
+Creditos_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Creditos_4.Position = UDim2.new(0.064087078, 0, 0.778770745, 0)
+Creditos_4.Size = UDim2.new(0, 145, 0, 29)
+Creditos_4.Font = Enum.Font.SourceSans
+Creditos_4.Text = "Obrigado a todos"
+Creditos_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Creditos_4.TextSize = 28.000
+
+UICorner_14.Parent = Creditos_4
+
+Creditos_5.Name = "Creditos"
+Creditos_5.Parent = ScrollingFrame
+Creditos_5.Active = false
+Creditos_5.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Creditos_5.BackgroundTransparency = 1.000
+Creditos_5.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Creditos_5.Position = UDim2.new(0.064087078, 0, 0.845329165, 0)
+Creditos_5.Size = UDim2.new(0, 145, 0, 29)
+Creditos_5.Font = Enum.Font.SourceSans
+Creditos_5.Text = "Por usar o script"
+Creditos_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Creditos_5.TextSize = 28.000
+
+UICorner_15.Parent = Creditos_5
+
+Amili_3.Name = "Amili"
+Amili_3.Parent = ScrollingFrame
+Amili_3.Active = false
+Amili_3.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Amili_3.BackgroundTransparency = 1.000
+Amili_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Amili_3.Position = UDim2.new(0.064087078, 0, 0.916757703, 0)
+Amili_3.Size = UDim2.new(0, 145, 0, 29)
+Amili_3.Font = Enum.Font.SourceSans
+Amili_3.Text = "--------------------"
+Amili_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Amili_3.TextSize = 28.000
+Amili_3.TextStrokeTransparency = 0.000
+Amili_3.TextTransparency = 0.900
+Amili_3.TextWrapped = true
+
+UICorner_16.Parent = Amili_3
+
+FecharMenu.Name = "FecharMenu"
+FecharMenu.Parent = main
+FecharMenu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FecharMenu.BackgroundTransparency = 1.000
+FecharMenu.Position = UDim2.new(0.915139079, 0, -0.00717948284, 0)
+FecharMenu.Size = UDim2.new(0, 21, 0, 24)
+FecharMenu.Font = Enum.Font.SourceSans
+FecharMenu.Text = "X"
+FecharMenu.TextColor3 = Color3.fromRGB(255, 255, 255)
+FecharMenu.TextSize = 29.000
+
+Abrir.Name = "Abrir"
+Abrir.Parent = ScreenGui
+Abrir.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Abrir.Position = UDim2.new(0, 0, 0.725146234, 0)
+Abrir.Size = UDim2.new(0, 88, 0, 29)
+Abrir.Font = Enum.Font.SourceSans
+Abrir.Text = "Abrir menu"
+Abrir.TextColor3 = Color3.fromRGB(0, 0, 0)
+Abrir.TextSize = 22.000
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(0.42, Color3.fromRGB(97, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 34, 255))}
+UIGradient_2.Parent = Abrir
+
+UICorner_17.Parent = Abrir
+
+-- Scripts:
+
+local function SFWE_fake_script() -- Proximity.Pimba 
+	local script = Instance.new('Script', Proximity)
+
+	for i,v in pairs(game:GetService("Workspace"):GetDescendants()) do
+		if v.ClassName == "ProximityPrompt" then
+			v.HoldDuration = 0    
+		end
+	end
+	
+	game:GetService("Workspace").DescendantAdded:Connect(function(Prox)
+		if Prox.ClassName == "ProximityPrompt" then
+			Prox.HoldDuration = 0    
+		end
+	end)
+end
+coroutine.wrap(SFWE_fake_script)()
+local function VJHPYOY_fake_script() -- AutoFarm.Farm 
+	local script = Instance.new('Script', AutoFarm)
+
+	_G.AutoFarm = true -- true para usar/false para parar
+	
+	-- Configurações
+	local A_1 = game:GetService("Workspace").Delivery["Delivery Quest"].ClickPart.ClickDetector
+	local Player = game:GetService("Players").LocalPlayer
+	local delay = 1 -- Tempo de Espera (recomendado: 1)
+	
+	while _G.AutoFarm == true do
+		wait(delay)
+		Player.Character.HumanoidRootPart.CFrame = CFrame.new(-105.896675, 3.09999919, -135.736084, -0.999657512, -8.68882211e-09, -0.0261689313, -8.3361984e-09, 1, -1.35840184e-08, 0.0261689313, -1.3361217e-08, -0.999657512)
+		wait(delay)
+		fireclickdetector(A_1)
+		wait(delay)
+		Player.Character.HumanoidRootPart.CFrame = CFrame.new(155.020126, 3.15187836, -253.247864, -0.0209160857, -6.29727239e-08, 0.999781251, -1.06235596e-07, 1, 6.07639876e-08, -0.999781251, -1.04941414e-07, -0.0209160857)
+	end
+end
+coroutine.wrap(VJHPYOY_fake_script)()
+local function PXPBBTF_fake_script() -- Proximity_2.Pimba 
+	local script = Instance.new('Script', Proximity_2)
+
+	for i,v in pairs(game:GetService("Workspace"):GetDescendants()) do
+		if v.ClassName == "ProximityPrompt" then
+			v.HoldDuration = 4    
+		end
+	end
+	
+	game:GetService("Workspace").DescendantAdded:Connect(function(Prox)
+		if Prox.ClassName == "ProximityPrompt" then
+			Prox.HoldDuration = 4   
+		end
+	end)
+end
+coroutine.wrap(PXPBBTF_fake_script)()
+local function RLQZ_fake_script() -- AutoFarm_2.Farm2 
+	local script = Instance.new('Script', AutoFarm_2)
+
+	_G.AutoFarm = false -- true para usar/false para parar
+	
+	-- Configurações
+	local A_1 = game:GetService("Workspace").Delivery["Delivery Quest"].ClickPart.ClickDetector
+	local Player = game:GetService("Players").LocalPlayer
+	local delay = 1 -- Tempo de Espera (recomendado: 1)
+	
+	while _G.AutoFarm == true do
+		wait(delay)
+		Player.Character.HumanoidRootPart.CFrame = CFrame.new(-105.896675, 3.09999919, -135.736084, -0.999657512, -8.68882211e-09, -0.0261689313, -8.3361984e-09, 1, -1.35840184e-08, 0.0261689313, -1.3361217e-08, -0.999657512)
+		wait(delay)
+		fireclickdetector(A_1)
+		wait(delay)
+		Player.Character.HumanoidRootPart.CFrame = CFrame.new(155.020126, 3.15187836, -253.247864, -0.0209160857, -6.29727239e-08, 0.999781251, -1.06235596e-07, 1, 6.07639876e-08, -0.999781251, -1.04941414e-07, -0.0209160857)
+	end
+end
+coroutine.wrap(RLQZ_fake_script)()
+local function VZORWSV_fake_script() -- AC6.Chubalana 
+	local script = Instance.new('Script', AC6)
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Luminential/releases/main/ac6_gui.luau", true))()
+end
+coroutine.wrap(VZORWSV_fake_script)()
+local function IZTCNV_fake_script() -- Deletarmapa.Chubalana 
+	local script = Instance.new('Script', Deletarmapa)
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Luminential/releases/main/ac6_gui.luau", true))()
+end
+coroutine.wrap(IZTCNV_fake_script)()
+local function ERHGQ_fake_script() -- FecharMenu.LocalScript 
+	local script = Instance.new('LocalScript', FecharMenu)
+
+	local frame = script.Parent.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frame.Visible = false
+	end)
+end
+coroutine.wrap(ERHGQ_fake_script)()
+local function SDEGMT_fake_script() -- Abrir.LocalScript 
+	local script = Instance.new('LocalScript', Abrir)
+
+	local Frame = script.Parent.Parent.main
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		Frame.Visible = true
+	end)
+end
+coroutine.wrap(SDEGMT_fake_script)()
